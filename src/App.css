@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.appName {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 60px;
+  margin: auto;
+  position: relative;
+}
+
+.main {
+  background-color: teal;
+  height: 100vh;
+}
+
+.mainContent {
+  width: 500px;
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px white;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.list {
+  width: 200px;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list_text {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.deleteIcon {
+  color: tomato;
+}
+
+.deleteIcon:hover {
+  color: red;
+}
+
+.topText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
